@@ -1,13 +1,35 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+/*
 
     You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
+
+
+    ...Or you can use the import command to include
     other sylesheets into your bunde as well, e.j:
-    
+
     import 'relative/path/to/stylesheet.scss';
 
 */
+.wholecounter{
+    background: black;
+    width: 600px;
+    margin: auto;
+    text-align:center;
+}
+.wholecounter div{
+    background: #292929;
+    color: white;
+    display:inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    line-height: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4a4a49;
+
+}
+
